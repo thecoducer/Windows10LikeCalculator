@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br><br>
    <b>A Windows 10 like calculator written in Visual Basic (VB).</b>
 </p>
@@ -57,9 +57,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 - Resources I used to learn Visual Basic:
   - Microsoft technical documentation on Visual Basic
   - [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts
-- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.
-<br>
-<br>
+- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.<br><br>
 <hr>
 <p align="center">
   <b>Website: <a href="https://thecoducer.github.io/" target="_blank">https://thecoducer.github.io/</a><br>

@@ -1,0 +1,16 @@
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.exe.config
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.exe
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.pdb
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.xml
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.Form1.resources
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.Resources.resources
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.vbproj.GenerateResource.cache
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.vbproj.CoreCompileInputs.cache
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.exe
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.xml
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.pdb
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.vbprojResolveAssemblyReference.cache
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.exe.manifest
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.application
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.exe.manifest
+C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.application
