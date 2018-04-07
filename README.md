@@ -3,6 +3,7 @@
 </p>
 
 # WowCalci
+
 **WowCalci** is a Windows 10 like calculator written in Visual Basic (VB).
 
 ## Getting Started
