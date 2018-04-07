@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: WowCalci
 description: A Windows 10 like calculator written in Visual Basic
+show_downloads: true
