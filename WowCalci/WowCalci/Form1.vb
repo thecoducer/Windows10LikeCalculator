@@ -261,10 +261,6 @@
 
     End Sub
 
-    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
-
-    End Sub
-
     Private Sub Button7_Click(sender As Object, e As EventArgs)
 
     End Sub
