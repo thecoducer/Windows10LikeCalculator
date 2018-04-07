@@ -24,7 +24,7 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     1. Launch **Visual Studio IDE**
     2. Click `File > Open > Project/Solution`
     3. Locate the repo folder you just downloaded
-    4. Open `WowCalci.sln` solution file inside that folder
+    4. Open `WowCalci.sln` solution file inside `WowCalci` folder
     5. Done.
     
 ## Screenshots
