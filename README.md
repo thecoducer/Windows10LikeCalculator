@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br>
-   A Windows 10 like calculator written in Visual Basic (VB).
+  <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br><br>
+   <b>A Windows 10 like calculator written in Visual Basic (VB).</b>
 </p>
 
 # Getting Started
