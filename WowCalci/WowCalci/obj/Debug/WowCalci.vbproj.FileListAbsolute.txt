@@ -14,3 +14,19 @@ C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debu
 C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\bin\Debug\WowCalci.application
 C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.exe.manifest
 C:\Users\MAYUKH\Documents\Visual Studio 2017\Projects\WowCalci\WowCalci\obj\Debug\WowCalci.application
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.exe.config
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.exe.manifest
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.application
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.exe
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.pdb
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\bin\Debug\WowCalci.xml
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.vbprojResolveAssemblyReference.cache
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.Form1.resources
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.Resources.resources
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.vbproj.GenerateResource.cache
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.vbproj.CoreCompileInputs.cache
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.exe.manifest
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.application
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.exe
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.xml
+D:\thecoducer_gitrepo\Windows10LikeCalculator\WowCalci\obj\Debug\WowCalci.pdb
