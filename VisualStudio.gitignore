@@ -12,7 +12,8 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.db.lock
+*.lock
+*.ide
 /.vs/*
 
 # ignore all . files and . folders
