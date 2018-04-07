@@ -21,7 +21,7 @@
         End If
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles Dev_Credits.LinkClicked
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         Try
             System.Diagnostics.Process.Start("https://thecoducer.github.io/")
         Catch
@@ -45,7 +45,19 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        toggle.BackColor = ColorTranslator.FromHtml("#F0F0F0")
         clearhistory.Visible = False
+        'toggle mode tricks
+        cube.Visible = False
+        x_squareroot.Visible = False
+        asin.Visible = False
+        acos.Visible = False
+        atan.Visible = False
+        one_divided_x.Visible = False
+        e_power_x.Visible = False
+        log_e.Visible = False
+        percentage.Visible = False
+        random_num.Visible = False
     End Sub
 
     Private Sub operation_click(sender As Object, e As EventArgs) Handles subtract.Click, multiply.Click, divide.Click, add.Click
@@ -99,7 +111,7 @@
 
     End Sub
 
-    Private Sub percentage_Click(sender As Object, e As EventArgs) Handles percentage.Click
+    Private Sub percentage_Click(sender As Object, e As EventArgs)
         Dim a As Double
         a = Convert.ToDouble(TextBox.Text) / Convert.ToDouble(100)
         TextBox.Text = System.Convert.ToString(a)
@@ -167,7 +179,7 @@
         TextBox.Text = System.Convert.ToString(s)
     End Sub
 
-    Private Sub log10_Click(sender As Object, e As EventArgs) Handles log10.Click
+    Private Sub log10_Click(sender As Object, e As EventArgs) Handles log_10.Click
         Dim a As Double = Double.Parse(TextBox.Text)
         equation.Text = "log(" & a & ")"
         a = Math.Log10(a)
@@ -261,8 +273,112 @@
 
     End Sub
 
-    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
+    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles square.Click
 
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles power_y.Click
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
+        If acos.Visible = False And asin.Visible = False Then
+            acos.Visible = True
+            asin.Visible = True
+            percentage.Visible = False
+            square.Visible = False
+        ElseIf percentage.Visible = False And square.Visible = False Then
+            acos.Visible = False
+            asin.Visible = False
+            percentage.Visible = True
+            square.Visible = True
+        End If
+        'percentage.Visible = True
+        'square.Visible = True
+        'acos.Visible = False
+        'asin.Visible = False
+    End Sub
+
+    Private Sub toggle_Click(sender As Object, e As EventArgs) Handles toggle.Click
+        If toggle.BackColor = ColorTranslator.FromHtml("#F0F0F0") Then
+            toggle.BackColor = Color.Plum
+        Else
+            toggle.BackColor = ColorTranslator.FromHtml("#F0F0F0")
+        End If
+
+        If cube.Visible = False And x_squareroot.Visible = False And asin.Visible = False And acos.Visible = False And atan.Visible = False And one_divided_x.Visible = False And e_power_x.Visible = False And log_e.Visible = False And percentage.Visible = False And random_num.Visible = False Then
+            'reverse the logic, make them all true
+            cube.Visible = True
+            x_squareroot.Visible = True
+            asin.Visible = True
+            acos.Visible = True
+            atan.Visible = True
+            one_divided_x.Visible = True
+            e_power_x.Visible = True
+            log_e.Visible = True
+            percentage.Visible = True
+            random_num.Visible = True
+            'reverse the logic, make them all false
+            square.Visible = False
+            power_y.Visible = False
+            sin.Visible = False
+            cos.Visible = False
+            tan.Visible = False
+            squareroot.Visible = False
+            ten_x.Visible = False
+            log_10.Visible = False
+            exp.Visible = False
+            modulus.Visible = False
+        Else
+            'reverse the logic, make them all false
+            cube.Visible = False
+            x_squareroot.Visible = False
+            asin.Visible = False
+            acos.Visible = False
+            atan.Visible = False
+            one_divided_x.Visible = False
+            e_power_x.Visible = False
+            log_e.Visible = False
+            percentage.Visible = False
+            random_num.Visible = False
+            'reverse the logic, make them all true
+            square.Visible = True
+            power_y.Visible = True
+            sin.Visible = True
+            cos.Visible = True
+            tan.Visible = True
+            squareroot.Visible = True
+            ten_x.Visible = True
+            log_10.Visible = True
+            exp.Visible = True
+            modulus.Visible = True
+        End If
+    End Sub
+
+    Private Sub random_num_Click(sender As Object, e As EventArgs) Handles random_num.Click
+        Dim rn As Integer
+        Dim a As Integer
+        a = Double.Parse(TextBox.Text)
+        rn = CInt(Math.Floor((a - 0 + 1) * Rnd())) + 0
+        equation.Text = "Ran# < " & a
+        TextBox.Text = rn.ToString
+        history_view.AppendText("Ran# < " & a & "=" & vbNewLine & rn)
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+        MessageBox.Show(
+    "Developed by Mayukh Datta
+        (@thecoducer)
+        - Version 1.0, 2018
+        - www.thecoducer.com",
+    "About WowCalci",
+    MessageBoxButtons.OK,
+    MessageBoxIcon.Information,
+    MessageBoxDefaultButton.Button2,
+    0, '0 is default otherwise use MessageBoxOptions Enum
+    "https://thecoducer.github.io/",
+    "contact")
     End Sub
 
     Private Sub Button7_Click(sender As Object, e As EventArgs)

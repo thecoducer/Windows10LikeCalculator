@@ -180,6 +180,9 @@
     <None Include="Resources\wowcalci_logo.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\wowcalci_logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

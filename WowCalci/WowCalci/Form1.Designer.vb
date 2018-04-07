@@ -24,12 +24,10 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TextBox = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.percentage = New System.Windows.Forms.Button()
         Me.factorial = New System.Windows.Forms.Button()
         Me.clear_entry = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.log10 = New System.Windows.Forms.Button()
+        Me.log_10 = New System.Windows.Forms.Button()
         Me.seven = New System.Windows.Forms.Button()
         Me.four = New System.Windows.Forms.Button()
         Me.one = New System.Windows.Forms.Button()
@@ -49,12 +47,11 @@ Partial Class Form1
         Me.subtract = New System.Windows.Forms.Button()
         Me.add = New System.Windows.Forms.Button()
         Me.equals = New System.Windows.Forms.Button()
-        Me.Dev_Credits = New System.Windows.Forms.LinkLabel()
         Me.modulus = New System.Windows.Forms.Button()
-        Me.Button27 = New System.Windows.Forms.Button()
-        Me.Button28 = New System.Windows.Forms.Button()
+        Me.square = New System.Windows.Forms.Button()
+        Me.power_y = New System.Windows.Forms.Button()
         Me.squareroot = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
+        Me.x_squareroot = New System.Windows.Forms.Button()
         Me.nohistory = New System.Windows.Forms.Label()
         Me.History = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -68,9 +65,17 @@ Partial Class Form1
         Me.atan = New System.Windows.Forms.Button()
         Me.acos = New System.Windows.Forms.Button()
         Me.asin = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
+        Me.one_divided_x = New System.Windows.Forms.Button()
+        Me.ten_x = New System.Windows.Forms.Button()
         Me.history_view = New System.Windows.Forms.RichTextBox()
+        Me.pivalue = New System.Windows.Forms.Button()
+        Me.toggle = New System.Windows.Forms.Button()
+        Me.cube = New System.Windows.Forms.Button()
+        Me.e_power_x = New System.Windows.Forms.Button()
+        Me.log_e = New System.Windows.Forms.Button()
+        Me.percentage = New System.Windows.Forms.Button()
+        Me.random_num = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox
@@ -79,50 +84,16 @@ Partial Class Form1
         Me.TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox.Font = New System.Drawing.Font("Segoe UI Semibold", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox.ForeColor = System.Drawing.Color.Black
-        Me.TextBox.Location = New System.Drawing.Point(4, 80)
+        Me.TextBox.Location = New System.Drawing.Point(4, 96)
         Me.TextBox.MaxLength = 327677
         Me.TextBox.Multiline = True
         Me.TextBox.Name = "TextBox"
         Me.TextBox.ReadOnly = True
-        Me.TextBox.Size = New System.Drawing.Size(434, 54)
+        Me.TextBox.Size = New System.Drawing.Size(409, 54)
         Me.TextBox.TabIndex = 12
         Me.TextBox.TabStop = False
         Me.TextBox.Text = "0"
         Me.TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(4, 344)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(82, 42)
-        Me.Button1.TabIndex = 14
-        Me.Button1.Text = "ln"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'percentage
-        '
-        Me.percentage.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.percentage.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.percentage.FlatAppearance.BorderSize = 0
-        Me.percentage.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.percentage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.percentage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.percentage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.percentage.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.percentage.Location = New System.Drawing.Point(4, 152)
-        Me.percentage.Name = "percentage"
-        Me.percentage.Size = New System.Drawing.Size(82, 42)
-        Me.percentage.TabIndex = 15
-        Me.percentage.Text = "%"
-        Me.percentage.UseVisualStyleBackColor = False
         '
         'factorial
         '
@@ -134,9 +105,9 @@ Partial Class Form1
         Me.factorial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.factorial.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.factorial.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.factorial.Location = New System.Drawing.Point(4, 392)
+        Me.factorial.Location = New System.Drawing.Point(4, 393)
         Me.factorial.Name = "factorial"
-        Me.factorial.Size = New System.Drawing.Size(82, 42)
+        Me.factorial.Size = New System.Drawing.Size(77, 40)
         Me.factorial.TabIndex = 16
         Me.factorial.Text = "n!"
         Me.factorial.UseVisualStyleBackColor = False
@@ -151,9 +122,9 @@ Partial Class Form1
         Me.clear_entry.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.clear_entry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.clear_entry.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clear_entry.Location = New System.Drawing.Point(92, 296)
+        Me.clear_entry.Location = New System.Drawing.Point(87, 305)
         Me.clear_entry.Name = "clear_entry"
-        Me.clear_entry.Size = New System.Drawing.Size(82, 42)
+        Me.clear_entry.Size = New System.Drawing.Size(77, 40)
         Me.clear_entry.TabIndex = 17
         Me.clear_entry.Text = "CE"
         Me.clear_entry.UseVisualStyleBackColor = False
@@ -168,29 +139,29 @@ Partial Class Form1
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(4, 488)
+        Me.Button5.Location = New System.Drawing.Point(4, 481)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(82, 42)
+        Me.Button5.Size = New System.Drawing.Size(77, 40)
         Me.Button5.TabIndex = 18
         Me.Button5.Text = "("
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'log10
+        'log_10
         '
-        Me.log10.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.log10.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.log10.FlatAppearance.BorderSize = 0
-        Me.log10.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.log10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.log10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.log10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.log10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.log10.Location = New System.Drawing.Point(4, 296)
-        Me.log10.Name = "log10"
-        Me.log10.Size = New System.Drawing.Size(82, 42)
-        Me.log10.TabIndex = 19
-        Me.log10.Text = "log"
-        Me.log10.UseVisualStyleBackColor = False
+        Me.log_10.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.log_10.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.log_10.FlatAppearance.BorderSize = 0
+        Me.log_10.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.log_10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.log_10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.log_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.log_10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.log_10.Location = New System.Drawing.Point(170, 261)
+        Me.log_10.Name = "log_10"
+        Me.log_10.Size = New System.Drawing.Size(77, 40)
+        Me.log_10.TabIndex = 19
+        Me.log_10.Text = "log"
+        Me.log_10.UseVisualStyleBackColor = False
         '
         'seven
         '
@@ -202,9 +173,9 @@ Partial Class Form1
         Me.seven.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.seven.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.seven.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.seven.Location = New System.Drawing.Point(92, 344)
+        Me.seven.Location = New System.Drawing.Point(87, 349)
         Me.seven.Name = "seven"
-        Me.seven.Size = New System.Drawing.Size(82, 42)
+        Me.seven.Size = New System.Drawing.Size(77, 40)
         Me.seven.TabIndex = 20
         Me.seven.Text = "7"
         Me.seven.UseVisualStyleBackColor = False
@@ -219,9 +190,9 @@ Partial Class Form1
         Me.four.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.four.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.four.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.four.Location = New System.Drawing.Point(92, 392)
+        Me.four.Location = New System.Drawing.Point(87, 393)
         Me.four.Name = "four"
-        Me.four.Size = New System.Drawing.Size(82, 42)
+        Me.four.Size = New System.Drawing.Size(77, 40)
         Me.four.TabIndex = 21
         Me.four.Text = "4"
         Me.four.UseVisualStyleBackColor = False
@@ -236,9 +207,9 @@ Partial Class Form1
         Me.one.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.one.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.one.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.one.Location = New System.Drawing.Point(92, 440)
+        Me.one.Location = New System.Drawing.Point(87, 437)
         Me.one.Name = "one"
-        Me.one.Size = New System.Drawing.Size(82, 42)
+        Me.one.Size = New System.Drawing.Size(77, 40)
         Me.one.TabIndex = 22
         Me.one.Text = "1"
         Me.one.UseVisualStyleBackColor = False
@@ -253,9 +224,9 @@ Partial Class Form1
         Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(92, 488)
+        Me.Button10.Location = New System.Drawing.Point(87, 481)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(82, 42)
+        Me.Button10.Size = New System.Drawing.Size(77, 40)
         Me.Button10.TabIndex = 23
         Me.Button10.Text = ")"
         Me.Button10.UseVisualStyleBackColor = False
@@ -270,9 +241,9 @@ Partial Class Form1
         Me.clear_all.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.clear_all.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.clear_all.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clear_all.Location = New System.Drawing.Point(180, 296)
+        Me.clear_all.Location = New System.Drawing.Point(170, 305)
         Me.clear_all.Name = "clear_all"
-        Me.clear_all.Size = New System.Drawing.Size(82, 42)
+        Me.clear_all.Size = New System.Drawing.Size(77, 40)
         Me.clear_all.TabIndex = 24
         Me.clear_all.Text = "C"
         Me.clear_all.UseVisualStyleBackColor = False
@@ -287,9 +258,9 @@ Partial Class Form1
         Me.eight.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.eight.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.eight.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.eight.Location = New System.Drawing.Point(180, 344)
+        Me.eight.Location = New System.Drawing.Point(170, 349)
         Me.eight.Name = "eight"
-        Me.eight.Size = New System.Drawing.Size(82, 42)
+        Me.eight.Size = New System.Drawing.Size(77, 40)
         Me.eight.TabIndex = 25
         Me.eight.Text = "8"
         Me.eight.UseVisualStyleBackColor = False
@@ -304,9 +275,9 @@ Partial Class Form1
         Me.five.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.five.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.five.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.five.Location = New System.Drawing.Point(180, 392)
+        Me.five.Location = New System.Drawing.Point(170, 393)
         Me.five.Name = "five"
-        Me.five.Size = New System.Drawing.Size(82, 42)
+        Me.five.Size = New System.Drawing.Size(77, 40)
         Me.five.TabIndex = 26
         Me.five.Text = "5"
         Me.five.UseVisualStyleBackColor = False
@@ -321,9 +292,9 @@ Partial Class Form1
         Me.two.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.two.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.two.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.two.Location = New System.Drawing.Point(180, 440)
+        Me.two.Location = New System.Drawing.Point(170, 437)
         Me.two.Name = "two"
-        Me.two.Size = New System.Drawing.Size(82, 42)
+        Me.two.Size = New System.Drawing.Size(77, 40)
         Me.two.TabIndex = 27
         Me.two.Text = "2"
         Me.two.UseVisualStyleBackColor = False
@@ -338,9 +309,9 @@ Partial Class Form1
         Me.zero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.zero.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.zero.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.zero.Location = New System.Drawing.Point(180, 488)
+        Me.zero.Location = New System.Drawing.Point(170, 481)
         Me.zero.Name = "zero"
-        Me.zero.Size = New System.Drawing.Size(82, 42)
+        Me.zero.Size = New System.Drawing.Size(77, 40)
         Me.zero.TabIndex = 28
         Me.zero.Text = "0"
         Me.zero.UseVisualStyleBackColor = False
@@ -355,9 +326,9 @@ Partial Class Form1
         Me.backspace.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.backspace.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.backspace.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.backspace.Location = New System.Drawing.Point(268, 296)
+        Me.backspace.Location = New System.Drawing.Point(253, 305)
         Me.backspace.Name = "backspace"
-        Me.backspace.Size = New System.Drawing.Size(82, 42)
+        Me.backspace.Size = New System.Drawing.Size(77, 40)
         Me.backspace.TabIndex = 29
         Me.backspace.Text = "⌫ "
         Me.backspace.UseVisualStyleBackColor = False
@@ -372,9 +343,9 @@ Partial Class Form1
         Me.nine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.nine.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nine.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nine.Location = New System.Drawing.Point(268, 344)
+        Me.nine.Location = New System.Drawing.Point(253, 349)
         Me.nine.Name = "nine"
-        Me.nine.Size = New System.Drawing.Size(82, 42)
+        Me.nine.Size = New System.Drawing.Size(77, 40)
         Me.nine.TabIndex = 30
         Me.nine.Text = "9"
         Me.nine.UseVisualStyleBackColor = False
@@ -389,9 +360,9 @@ Partial Class Form1
         Me.six.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.six.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.six.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.six.Location = New System.Drawing.Point(268, 392)
+        Me.six.Location = New System.Drawing.Point(253, 393)
         Me.six.Name = "six"
-        Me.six.Size = New System.Drawing.Size(82, 42)
+        Me.six.Size = New System.Drawing.Size(77, 40)
         Me.six.TabIndex = 31
         Me.six.Text = "6"
         Me.six.UseVisualStyleBackColor = False
@@ -406,9 +377,9 @@ Partial Class Form1
         Me.three.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.three.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.three.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.three.Location = New System.Drawing.Point(268, 440)
+        Me.three.Location = New System.Drawing.Point(253, 437)
         Me.three.Name = "three"
-        Me.three.Size = New System.Drawing.Size(82, 42)
+        Me.three.Size = New System.Drawing.Size(77, 40)
         Me.three.TabIndex = 32
         Me.three.Text = "3"
         Me.three.UseVisualStyleBackColor = False
@@ -423,9 +394,9 @@ Partial Class Form1
         Me.dot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.dot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.dot.Font = New System.Drawing.Font("Segoe UI Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.dot.Location = New System.Drawing.Point(268, 488)
+        Me.dot.Location = New System.Drawing.Point(253, 481)
         Me.dot.Name = "dot"
-        Me.dot.Size = New System.Drawing.Size(82, 42)
+        Me.dot.Size = New System.Drawing.Size(77, 40)
         Me.dot.TabIndex = 33
         Me.dot.Text = "."
         Me.dot.UseVisualStyleBackColor = False
@@ -439,10 +410,10 @@ Partial Class Form1
         Me.divide.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen
         Me.divide.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen
         Me.divide.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.divide.Font = New System.Drawing.Font("Segoe UI Semilight", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.divide.Location = New System.Drawing.Point(356, 296)
+        Me.divide.Font = New System.Drawing.Font("Segoe UI Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.divide.Location = New System.Drawing.Point(336, 305)
         Me.divide.Name = "divide"
-        Me.divide.Size = New System.Drawing.Size(82, 42)
+        Me.divide.Size = New System.Drawing.Size(77, 40)
         Me.divide.TabIndex = 34
         Me.divide.Text = "÷"
         Me.divide.UseVisualStyleBackColor = False
@@ -456,10 +427,10 @@ Partial Class Form1
         Me.multiply.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen
         Me.multiply.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen
         Me.multiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.multiply.Font = New System.Drawing.Font("Segoe UI Semilight", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.multiply.Location = New System.Drawing.Point(356, 344)
+        Me.multiply.Font = New System.Drawing.Font("Segoe UI Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.multiply.Location = New System.Drawing.Point(336, 349)
         Me.multiply.Name = "multiply"
-        Me.multiply.Size = New System.Drawing.Size(82, 42)
+        Me.multiply.Size = New System.Drawing.Size(77, 40)
         Me.multiply.TabIndex = 35
         Me.multiply.Text = "×"
         Me.multiply.UseVisualStyleBackColor = False
@@ -473,10 +444,10 @@ Partial Class Form1
         Me.subtract.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen
         Me.subtract.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen
         Me.subtract.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.subtract.Font = New System.Drawing.Font("Segoe UI Semilight", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.subtract.Location = New System.Drawing.Point(356, 392)
+        Me.subtract.Font = New System.Drawing.Font("Segoe UI Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.subtract.Location = New System.Drawing.Point(336, 393)
         Me.subtract.Name = "subtract"
-        Me.subtract.Size = New System.Drawing.Size(82, 42)
+        Me.subtract.Size = New System.Drawing.Size(77, 40)
         Me.subtract.TabIndex = 36
         Me.subtract.Text = "−"
         Me.subtract.UseVisualStyleBackColor = False
@@ -490,10 +461,10 @@ Partial Class Form1
         Me.add.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen
         Me.add.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen
         Me.add.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.add.Font = New System.Drawing.Font("Segoe UI Semilight", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.add.Location = New System.Drawing.Point(356, 440)
+        Me.add.Font = New System.Drawing.Font("Segoe UI Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.add.Location = New System.Drawing.Point(336, 437)
         Me.add.Name = "add"
-        Me.add.Size = New System.Drawing.Size(82, 42)
+        Me.add.Size = New System.Drawing.Size(77, 40)
         Me.add.TabIndex = 37
         Me.add.Text = "+"
         Me.add.UseVisualStyleBackColor = False
@@ -507,32 +478,13 @@ Partial Class Form1
         Me.equals.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightGreen
         Me.equals.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen
         Me.equals.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.equals.Font = New System.Drawing.Font("Segoe UI Semilight", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.equals.Location = New System.Drawing.Point(356, 488)
+        Me.equals.Font = New System.Drawing.Font("Segoe UI Light", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.equals.Location = New System.Drawing.Point(336, 481)
         Me.equals.Name = "equals"
-        Me.equals.Size = New System.Drawing.Size(82, 42)
+        Me.equals.Size = New System.Drawing.Size(77, 40)
         Me.equals.TabIndex = 38
         Me.equals.Text = "="
-        Me.equals.UseVisualStyleBackColor = False
-        '
-        'Dev_Credits
-        '
-        Me.Dev_Credits.ActiveLinkColor = System.Drawing.Color.DarkGreen
-        Me.Dev_Credits.AutoSize = True
-        Me.Dev_Credits.BackColor = System.Drawing.Color.Gainsboro
-        Me.Dev_Credits.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Dev_Credits.Font = New System.Drawing.Font("Lucida Console", 11.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Dev_Credits.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline
-        Me.Dev_Credits.LinkColor = System.Drawing.Color.DodgerBlue
-        Me.Dev_Credits.Location = New System.Drawing.Point(541, 504)
-        Me.Dev_Credits.Name = "Dev_Credits"
-        Me.Dev_Credits.Padding = New System.Windows.Forms.Padding(2)
-        Me.Dev_Credits.Size = New System.Drawing.Size(110, 19)
-        Me.Dev_Credits.TabIndex = 39
-        Me.Dev_Credits.TabStop = True
-        Me.Dev_Credits.Text = "@thecoducer"
-        Me.Dev_Credits.TextAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Dev_Credits.VisitedLinkColor = System.Drawing.Color.DimGray
+        Me.equals.UseVisualStyleBackColor = True
         '
         'modulus
         '
@@ -544,46 +496,47 @@ Partial Class Form1
         Me.modulus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.modulus.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.modulus.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.modulus.Location = New System.Drawing.Point(356, 248)
+        Me.modulus.Location = New System.Drawing.Point(336, 261)
         Me.modulus.Name = "modulus"
-        Me.modulus.Size = New System.Drawing.Size(82, 42)
+        Me.modulus.Size = New System.Drawing.Size(77, 40)
         Me.modulus.TabIndex = 40
         Me.modulus.Text = "Mod"
         Me.modulus.UseVisualStyleBackColor = False
         '
-        'Button27
+        'square
         '
-        Me.Button27.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button27.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button27.FlatAppearance.BorderSize = 0
-        Me.Button27.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button27.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button27.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button27.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button27.Location = New System.Drawing.Point(180, 152)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(82, 42)
-        Me.Button27.TabIndex = 41
-        Me.Button27.Text = "e˟"
-        Me.Button27.UseVisualStyleBackColor = False
+        Me.square.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.square.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.square.FlatAppearance.BorderSize = 0
+        Me.square.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.square.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.square.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.square.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.square.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.square.Location = New System.Drawing.Point(4, 217)
+        Me.square.Name = "square"
+        Me.square.Size = New System.Drawing.Size(77, 40)
+        Me.square.TabIndex = 41
+        Me.square.Text = "x²"
+        Me.square.UseVisualStyleBackColor = False
         '
-        'Button28
+        'power_y
         '
-        Me.Button28.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button28.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button28.FlatAppearance.BorderSize = 0
-        Me.Button28.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button28.Location = New System.Drawing.Point(92, 152)
-        Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(82, 42)
-        Me.Button28.TabIndex = 42
-        Me.Button28.Text = "xʸ"
-        Me.Button28.UseVisualStyleBackColor = False
+        Me.power_y.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.power_y.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.power_y.FlatAppearance.BorderSize = 0
+        Me.power_y.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.power_y.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.power_y.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.power_y.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.power_y.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.power_y.Location = New System.Drawing.Point(87, 217)
+        Me.power_y.Name = "power_y"
+        Me.power_y.Size = New System.Drawing.Size(77, 40)
+        Me.power_y.TabIndex = 42
+        Me.power_y.Text = "xʸ"
+        Me.power_y.UseVisualStyleBackColor = False
+        Me.power_y.UseWaitCursor = True
         '
         'squareroot
         '
@@ -595,29 +548,29 @@ Partial Class Form1
         Me.squareroot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.squareroot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.squareroot.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.squareroot.Location = New System.Drawing.Point(268, 152)
+        Me.squareroot.Location = New System.Drawing.Point(4, 261)
         Me.squareroot.Name = "squareroot"
-        Me.squareroot.Size = New System.Drawing.Size(82, 42)
+        Me.squareroot.Size = New System.Drawing.Size(77, 40)
         Me.squareroot.TabIndex = 43
         Me.squareroot.Text = "√"
         Me.squareroot.UseVisualStyleBackColor = False
         '
-        'Button30
+        'x_squareroot
         '
-        Me.Button30.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button30.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button30.FlatAppearance.BorderSize = 0
-        Me.Button30.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button30.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button30.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button30.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button30.Location = New System.Drawing.Point(356, 152)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(82, 42)
-        Me.Button30.TabIndex = 44
-        Me.Button30.Text = "˟√"
-        Me.Button30.UseVisualStyleBackColor = False
+        Me.x_squareroot.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.x_squareroot.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.x_squareroot.FlatAppearance.BorderSize = 0
+        Me.x_squareroot.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.x_squareroot.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.x_squareroot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.x_squareroot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.x_squareroot.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.x_squareroot.Location = New System.Drawing.Point(87, 217)
+        Me.x_squareroot.Name = "x_squareroot"
+        Me.x_squareroot.Size = New System.Drawing.Size(77, 40)
+        Me.x_squareroot.TabIndex = 44
+        Me.x_squareroot.Text = "˟√"
+        Me.x_squareroot.UseVisualStyleBackColor = False
         '
         'nohistory
         '
@@ -652,7 +605,7 @@ Partial Class Form1
         Me.clearhistory.FlatAppearance.BorderSize = 0
         Me.clearhistory.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.clearhistory.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.clearhistory.Location = New System.Drawing.Point(693, 490)
+        Me.clearhistory.Location = New System.Drawing.Point(701, 479)
         Me.clearhistory.Name = "clearhistory"
         Me.clearhistory.Size = New System.Drawing.Size(39, 42)
         Me.clearhistory.TabIndex = 49
@@ -664,7 +617,7 @@ Partial Class Form1
         Me.equation.AutoSize = True
         Me.equation.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.equation.ForeColor = System.Drawing.Color.DimGray
-        Me.equation.Location = New System.Drawing.Point(403, 36)
+        Me.equation.Location = New System.Drawing.Point(403, 52)
         Me.equation.Name = "equation"
         Me.equation.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.equation.Size = New System.Drawing.Size(0, 20)
@@ -681,9 +634,9 @@ Partial Class Form1
         Me.negation.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.negation.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.negation.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.negation.Location = New System.Drawing.Point(4, 440)
+        Me.negation.Location = New System.Drawing.Point(4, 437)
         Me.negation.Name = "negation"
-        Me.negation.Size = New System.Drawing.Size(82, 42)
+        Me.negation.Size = New System.Drawing.Size(77, 40)
         Me.negation.TabIndex = 51
         Me.negation.Text = "±"
         Me.negation.UseVisualStyleBackColor = False
@@ -698,9 +651,9 @@ Partial Class Form1
         Me.exp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.exp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.exp.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.exp.Location = New System.Drawing.Point(268, 248)
+        Me.exp.Location = New System.Drawing.Point(253, 261)
         Me.exp.Name = "exp"
-        Me.exp.Size = New System.Drawing.Size(82, 42)
+        Me.exp.Size = New System.Drawing.Size(77, 40)
         Me.exp.TabIndex = 52
         Me.exp.Text = "Exp"
         Me.exp.UseVisualStyleBackColor = False
@@ -715,9 +668,9 @@ Partial Class Form1
         Me.tan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.tan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.tan.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tan.Location = New System.Drawing.Point(180, 248)
+        Me.tan.Location = New System.Drawing.Point(336, 217)
         Me.tan.Name = "tan"
-        Me.tan.Size = New System.Drawing.Size(82, 42)
+        Me.tan.Size = New System.Drawing.Size(77, 40)
         Me.tan.TabIndex = 53
         Me.tan.Text = "tan"
         Me.tan.UseVisualStyleBackColor = False
@@ -732,9 +685,9 @@ Partial Class Form1
         Me.cos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.cos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cos.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cos.Location = New System.Drawing.Point(92, 248)
+        Me.cos.Location = New System.Drawing.Point(253, 217)
         Me.cos.Name = "cos"
-        Me.cos.Size = New System.Drawing.Size(82, 42)
+        Me.cos.Size = New System.Drawing.Size(77, 40)
         Me.cos.TabIndex = 54
         Me.cos.Text = "cos"
         Me.cos.UseVisualStyleBackColor = False
@@ -749,9 +702,9 @@ Partial Class Form1
         Me.sin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.sin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.sin.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sin.Location = New System.Drawing.Point(4, 248)
+        Me.sin.Location = New System.Drawing.Point(170, 217)
         Me.sin.Name = "sin"
-        Me.sin.Size = New System.Drawing.Size(82, 42)
+        Me.sin.Size = New System.Drawing.Size(77, 40)
         Me.sin.TabIndex = 55
         Me.sin.Text = "sin"
         Me.sin.UseVisualStyleBackColor = False
@@ -766,9 +719,9 @@ Partial Class Form1
         Me.atan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.atan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.atan.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.atan.Location = New System.Drawing.Point(180, 200)
+        Me.atan.Location = New System.Drawing.Point(336, 217)
         Me.atan.Name = "atan"
-        Me.atan.Size = New System.Drawing.Size(82, 42)
+        Me.atan.Size = New System.Drawing.Size(77, 40)
         Me.atan.TabIndex = 56
         Me.atan.Text = "tan⁻¹"
         Me.atan.UseVisualStyleBackColor = False
@@ -783,9 +736,9 @@ Partial Class Form1
         Me.acos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.acos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.acos.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.acos.Location = New System.Drawing.Point(92, 200)
+        Me.acos.Location = New System.Drawing.Point(253, 217)
         Me.acos.Name = "acos"
-        Me.acos.Size = New System.Drawing.Size(82, 42)
+        Me.acos.Size = New System.Drawing.Size(77, 40)
         Me.acos.TabIndex = 57
         Me.acos.Text = "cos⁻¹"
         Me.acos.UseVisualStyleBackColor = False
@@ -800,46 +753,46 @@ Partial Class Form1
         Me.asin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.asin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.asin.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.asin.Location = New System.Drawing.Point(4, 200)
+        Me.asin.Location = New System.Drawing.Point(170, 217)
         Me.asin.Name = "asin"
-        Me.asin.Size = New System.Drawing.Size(82, 42)
+        Me.asin.Size = New System.Drawing.Size(77, 40)
         Me.asin.TabIndex = 58
         Me.asin.Text = "sin⁻¹"
         Me.asin.UseVisualStyleBackColor = False
         '
-        'Button15
+        'one_divided_x
         '
-        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button15.FlatAppearance.BorderSize = 0
-        Me.Button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.Location = New System.Drawing.Point(356, 200)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(82, 42)
-        Me.Button15.TabIndex = 59
-        Me.Button15.Text = "1/x"
-        Me.Button15.UseVisualStyleBackColor = False
+        Me.one_divided_x.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.one_divided_x.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.one_divided_x.FlatAppearance.BorderSize = 0
+        Me.one_divided_x.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.one_divided_x.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.one_divided_x.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.one_divided_x.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.one_divided_x.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.one_divided_x.Location = New System.Drawing.Point(4, 261)
+        Me.one_divided_x.Name = "one_divided_x"
+        Me.one_divided_x.Size = New System.Drawing.Size(77, 40)
+        Me.one_divided_x.TabIndex = 59
+        Me.one_divided_x.Text = "1/x"
+        Me.one_divided_x.UseVisualStyleBackColor = False
         '
-        'Button17
+        'ten_x
         '
-        Me.Button17.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
-        Me.Button17.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.Button17.FlatAppearance.BorderSize = 0
-        Me.Button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
-        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
-        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(268, 200)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(82, 42)
-        Me.Button17.TabIndex = 60
-        Me.Button17.Text = "10˟"
-        Me.Button17.UseVisualStyleBackColor = False
+        Me.ten_x.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.ten_x.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.ten_x.FlatAppearance.BorderSize = 0
+        Me.ten_x.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.ten_x.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.ten_x.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.ten_x.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ten_x.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ten_x.Location = New System.Drawing.Point(87, 261)
+        Me.ten_x.Name = "ten_x"
+        Me.ten_x.Size = New System.Drawing.Size(77, 40)
+        Me.ten_x.TabIndex = 60
+        Me.ten_x.Text = "10˟"
+        Me.ten_x.UseVisualStyleBackColor = False
         '
         'history_view
         '
@@ -847,14 +800,142 @@ Partial Class Form1
         Me.history_view.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.history_view.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.history_view.ForeColor = System.Drawing.Color.Black
-        Me.history_view.Location = New System.Drawing.Point(481, 95)
+        Me.history_view.Location = New System.Drawing.Point(481, 84)
         Me.history_view.Name = "history_view"
         Me.history_view.ReadOnly = True
         Me.history_view.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.history_view.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical
-        Me.history_view.Size = New System.Drawing.Size(251, 389)
+        Me.history_view.Size = New System.Drawing.Size(251, 400)
         Me.history_view.TabIndex = 48
         Me.history_view.Text = ""
+        '
+        'pivalue
+        '
+        Me.pivalue.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.pivalue.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.pivalue.FlatAppearance.BorderSize = 0
+        Me.pivalue.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.pivalue.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.pivalue.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.pivalue.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.pivalue.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pivalue.Location = New System.Drawing.Point(4, 349)
+        Me.pivalue.Name = "pivalue"
+        Me.pivalue.Size = New System.Drawing.Size(77, 40)
+        Me.pivalue.TabIndex = 62
+        Me.pivalue.Text = "π"
+        Me.pivalue.UseVisualStyleBackColor = False
+        '
+        'toggle
+        '
+        Me.toggle.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.toggle.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.toggle.FlatAppearance.BorderSize = 0
+        Me.toggle.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.toggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.toggle.Font = New System.Drawing.Font("Segoe UI Symbol", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.toggle.Location = New System.Drawing.Point(4, 305)
+        Me.toggle.Name = "toggle"
+        Me.toggle.Size = New System.Drawing.Size(77, 40)
+        Me.toggle.TabIndex = 63
+        Me.toggle.Text = "↑"
+        Me.toggle.UseVisualStyleBackColor = False
+        '
+        'cube
+        '
+        Me.cube.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.cube.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.cube.FlatAppearance.BorderSize = 0
+        Me.cube.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.cube.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.cube.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.cube.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.cube.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cube.Location = New System.Drawing.Point(4, 217)
+        Me.cube.Name = "cube"
+        Me.cube.Size = New System.Drawing.Size(77, 40)
+        Me.cube.TabIndex = 64
+        Me.cube.Text = "x³"
+        Me.cube.UseVisualStyleBackColor = False
+        '
+        'e_power_x
+        '
+        Me.e_power_x.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.e_power_x.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.e_power_x.FlatAppearance.BorderSize = 0
+        Me.e_power_x.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.e_power_x.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.e_power_x.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.e_power_x.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.e_power_x.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.e_power_x.Location = New System.Drawing.Point(87, 261)
+        Me.e_power_x.Name = "e_power_x"
+        Me.e_power_x.Size = New System.Drawing.Size(77, 40)
+        Me.e_power_x.TabIndex = 65
+        Me.e_power_x.Text = "e˟"
+        Me.e_power_x.UseVisualStyleBackColor = False
+        '
+        'log_e
+        '
+        Me.log_e.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.log_e.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.log_e.FlatAppearance.BorderSize = 0
+        Me.log_e.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.log_e.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.log_e.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.log_e.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.log_e.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.log_e.Location = New System.Drawing.Point(170, 261)
+        Me.log_e.Name = "log_e"
+        Me.log_e.Size = New System.Drawing.Size(77, 40)
+        Me.log_e.TabIndex = 66
+        Me.log_e.Text = "ln"
+        Me.log_e.UseVisualStyleBackColor = False
+        '
+        'percentage
+        '
+        Me.percentage.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.percentage.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.percentage.FlatAppearance.BorderSize = 0
+        Me.percentage.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.percentage.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.percentage.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.percentage.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.percentage.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.percentage.Location = New System.Drawing.Point(253, 261)
+        Me.percentage.Name = "percentage"
+        Me.percentage.Size = New System.Drawing.Size(77, 40)
+        Me.percentage.TabIndex = 67
+        Me.percentage.Text = "%"
+        Me.percentage.UseVisualStyleBackColor = False
+        '
+        'random_num
+        '
+        Me.random_num.BackColor = System.Drawing.Color.FromArgb(CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(240, Byte), Integer))
+        Me.random_num.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.random_num.FlatAppearance.BorderSize = 0
+        Me.random_num.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
+        Me.random_num.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray
+        Me.random_num.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
+        Me.random_num.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.random_num.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.random_num.Location = New System.Drawing.Point(336, 261)
+        Me.random_num.Name = "random_num"
+        Me.random_num.Size = New System.Drawing.Size(77, 40)
+        Me.random_num.TabIndex = 68
+        Me.random_num.Text = "Ran#"
+        Me.random_num.UseVisualStyleBackColor = False
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Location = New System.Drawing.Point(695, 9)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(37, 36)
+        Me.Button1.TabIndex = 69
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -863,9 +944,17 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.Gainsboro
-        Me.ClientSize = New System.Drawing.Size(744, 534)
-        Me.Controls.Add(Me.Button17)
-        Me.Controls.Add(Me.Button15)
+        Me.ClientSize = New System.Drawing.Size(744, 525)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.random_num)
+        Me.Controls.Add(Me.percentage)
+        Me.Controls.Add(Me.log_e)
+        Me.Controls.Add(Me.e_power_x)
+        Me.Controls.Add(Me.cube)
+        Me.Controls.Add(Me.toggle)
+        Me.Controls.Add(Me.pivalue)
+        Me.Controls.Add(Me.ten_x)
+        Me.Controls.Add(Me.one_divided_x)
         Me.Controls.Add(Me.asin)
         Me.Controls.Add(Me.acos)
         Me.Controls.Add(Me.atan)
@@ -880,12 +969,11 @@ Partial Class Form1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.History)
         Me.Controls.Add(Me.nohistory)
-        Me.Controls.Add(Me.Button30)
+        Me.Controls.Add(Me.x_squareroot)
         Me.Controls.Add(Me.squareroot)
-        Me.Controls.Add(Me.Button28)
-        Me.Controls.Add(Me.Button27)
+        Me.Controls.Add(Me.power_y)
+        Me.Controls.Add(Me.square)
         Me.Controls.Add(Me.modulus)
-        Me.Controls.Add(Me.Dev_Credits)
         Me.Controls.Add(Me.equals)
         Me.Controls.Add(Me.add)
         Me.Controls.Add(Me.subtract)
@@ -905,12 +993,10 @@ Partial Class Form1
         Me.Controls.Add(Me.one)
         Me.Controls.Add(Me.four)
         Me.Controls.Add(Me.seven)
-        Me.Controls.Add(Me.log10)
+        Me.Controls.Add(Me.log_10)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.clear_entry)
         Me.Controls.Add(Me.factorial)
-        Me.Controls.Add(Me.percentage)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -925,12 +1011,10 @@ Partial Class Form1
 
     End Sub
     Friend WithEvents TextBox As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents percentage As Button
     Friend WithEvents factorial As Button
     Friend WithEvents clear_entry As Button
     Friend WithEvents Button5 As Button
-    Friend WithEvents log10 As Button
+    Friend WithEvents log_10 As Button
     Friend WithEvents seven As Button
     Friend WithEvents four As Button
     Friend WithEvents one As Button
@@ -950,12 +1034,11 @@ Partial Class Form1
     Friend WithEvents subtract As Button
     Friend WithEvents add As Button
     Friend WithEvents equals As Button
-    Friend WithEvents Dev_Credits As LinkLabel
     Friend WithEvents modulus As Button
-    Friend WithEvents Button27 As Button
-    Friend WithEvents Button28 As Button
+    Friend WithEvents square As Button
+    Friend WithEvents power_y As Button
     Friend WithEvents squareroot As Button
-    Friend WithEvents Button30 As Button
+    Friend WithEvents x_squareroot As Button
     Friend WithEvents nohistory As Label
     Friend WithEvents History As Label
     Friend WithEvents Label3 As Label
@@ -969,7 +1052,15 @@ Partial Class Form1
     Friend WithEvents atan As Button
     Friend WithEvents acos As Button
     Friend WithEvents asin As Button
-    Friend WithEvents Button15 As Button
-    Friend WithEvents Button17 As Button
+    Friend WithEvents one_divided_x As Button
+    Friend WithEvents ten_x As Button
     Friend WithEvents history_view As RichTextBox
+    Friend WithEvents pivalue As Button
+    Friend WithEvents toggle As Button
+    Friend WithEvents cube As Button
+    Friend WithEvents e_power_x As Button
+    Friend WithEvents log_e As Button
+    Friend WithEvents percentage As Button
+    Friend WithEvents random_num As Button
+    Friend WithEvents Button1 As Button
 End Class
