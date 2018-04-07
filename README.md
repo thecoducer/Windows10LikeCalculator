@@ -49,19 +49,20 @@ This is a juvenile project. If you have got any suggestions for new features or 
 
 ## Authors
 
-* **Mayukh Datta** - [https://thecoducer.github.io/](https://thecoducer.github.io/)
+* **Mayukh Datta**
+*Website:* [https://thecoducer.github.io/](https://thecoducer.github.io/)
+*Blog:* [http://www.thecoducer.com](http://www.thecoducer.com)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/thecoducer/Windows10LikeCalculator/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
-* The sophisticated appearance of the default calculator app in Windows 10 inspired me to develop my own calculator app in a similar look.
-* Resources I used to learn Visual Basic:
+- The sophisticated appearance of the default calculator app in Windows 10 inspired me to develop my own calculator app in a similar look.
+- Resources I used to learn Visual Basic:
   - Microsoft technical documentation on Visual Basic
   - From the YouTube channel *thenewboston* by @buckyroberts
-* [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.
-
+- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.
