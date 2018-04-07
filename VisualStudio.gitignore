@@ -13,6 +13,7 @@
 *.userosscache
 *.sln.docstates
 *.db.lock
+/.vs/*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
