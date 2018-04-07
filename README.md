@@ -5,7 +5,7 @@
 
 # Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes. However, if you want to install the WowCalci application then download the setup file from [here](https://github.com/thecoducer/Windows10LikeCalculator#Versions).
+Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes. However, if you want to install the WowCalci application then download the setup file from [here](#versions).
 
 ## Prerequisites
 
@@ -40,20 +40,12 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
 
 ## Built With
 
-* Visual Studio Community 2017
 * Visual Basic programming language
+* Visual Studio Community 2017
 
-## Contributing
+## Contribute
 
 This is a juvenile project. If you have got any suggestions for new features or improvements, please comment over [here](https://github.com/thecoducer/Windows10LikeCalculator/issues/1). Pull Requests are most welcome!
-
-## Authors
-
-* **Mayukh Datta**
-*Website:* [https://thecoducer.github.io/](https://thecoducer.github.io/)
-*Blog:* [http://www.thecoducer.com](http://www.thecoducer.com)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
@@ -64,5 +56,17 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 - The sophisticated appearance of the default calculator app in Windows 10 inspired me to develop my own calculator app in a similar look.
 - Resources I used to learn Visual Basic:
   - Microsoft technical documentation on Visual Basic
-  - From the YouTube channel *thenewboston* by @buckyroberts
+  - [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts
 - [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.
+
+<hr>
+<p align="center">
+  <b>Website: https://thecoducer.github.io/<br>
+  Blog: http://www.thecoducer.com</b>
+</p>
+<hr>
+<h3 align="center">Happy programming!</h3>
+<hr>
+<p align="center">
+💚
+</p>
