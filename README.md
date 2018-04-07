@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br><br>
    <b>A Windows 10 like calculator written in Visual Basic (VB).</b>
 </p>
@@ -24,7 +24,7 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     1. Launch **Visual Studio IDE**
     2. Click `File > Open > Project/Solution`
     3. Locate the repo folder you just downloaded
-    4. Open `WowCalci.sln` solution file inside that folder
+    4. Open `WowCalci.sln` solution file inside `WowCalci` folder
     5. Done.
     
 ## Screenshots
@@ -54,10 +54,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 - The sophisticated appearance of the default calculator app in Windows 10 inspired me to develop my own calculator app in a similar look.
-- Resources I used to learn Visual Basic:
-  - Microsoft technical documentation on Visual Basic
-  - [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts
-- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.<br><br>
+- Resources I used to learn Visual Basic: Microsoft technical documentation on Visual Basic and [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts
+- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.<br>
 <hr>
 <p align="center">
   <b>Website: <a href="https://thecoducer.github.io/" target="_blank">https://thecoducer.github.io/</a><br>
