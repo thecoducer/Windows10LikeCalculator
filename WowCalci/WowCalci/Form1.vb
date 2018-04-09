@@ -58,6 +58,12 @@
         log_e.Visible = False
         percentage.Visible = False
         random_num.Visible = False
+        SystemControlAcrylicWindowBrush, SystemControlAcrylicElementBrush 
+SystemControlChromeLowAcrylicWindowBrush, SystemControlChromeLowAcrylicElementBrush 
+SystemControlBaseHighAcrylicWindowBrush, SystemControlBaseHighAcrylicElementBrush 
+SystemControlBaseLowAcrylicWindowBrush, SystemControlBaseLowAcrylicElementBrush 
+SystemControlAltHighAcrylicWindowBrush, SystemControlAltHighAcrylicElementBrush 
+SystemControlAltLowAcrylicWindowBrush, SystemControlAltLowAcrylicElementBrush
     End Sub
 
     'For operator buttons
