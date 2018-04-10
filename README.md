@@ -54,9 +54,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 - The sophisticated appearance of the default calculator app in Windows 10 inspired me to develop my own calculator app in a similar look.
-- Resources I used to learn Visual Basic: Microsoft technical documentation on Visual Basic and [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts
-- [https://youtu.be/kmC6_waG99w](https://youtu.be/kmC6_waG99w) - This YouTube tutorial helped me a lot.<br>
-
+- Resources I used to learn Visual Basic: Microsoft technical documentation on Visual Basic and [VB tutorial](https://www.youtube.com/playlist?list=PLBF30CDACAF8C4C93) on YouTube channel *thenewboston* by @buckyroberts.<br>
 <hr>
 <h3 align="center">Programming helps you to build something from nothing. - <a href="http://www.thecoducer.com/2017/09/how-to-start-learning-programming.html" target="_blank">@thecoducer</a></h3>
 <hr>
