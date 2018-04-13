@@ -28,8 +28,6 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     4. Open `WowCalci.sln` solution file inside `WowCalci` folder
     5. Done.
     
-![WowCalci_Demo](https://j.gifs.com/OyRZWL.gif)
-
 <!--## Versions-->
 ## Built With
 
