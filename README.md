@@ -27,12 +27,9 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     4. Open `WowCalci.sln` solution file inside `WowCalci` folder
     5. Done.
     
-## Screenshots
+## Demo
 
-<!-- <p align="center">
-  <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br><br>
-   <b>A Windows 10 like calculator written in Visual Basic (VB).</b>
-</p> -->
+<div style="position:relative;padding-bottom:56.265%;"><iframe src="//gifs.com/embed/wowcalci-windows-10-like-calculator-written-in-visual-basic-OyRZWL" frameborder="0" scrolling="no" width="830" height="467" style="backface-visibility: hidden; transform: scale(1); position: absolute; height: 100%; width: 100%;"></iframe></div>
 
 ## Versions
 
