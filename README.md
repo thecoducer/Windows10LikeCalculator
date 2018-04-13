@@ -1,11 +1,12 @@
 <p align="center">
   <img src="https://github.com/thecoducer/Windows10LikeCalculator/raw/master/assets/wowcalci_logo.jpg"><br><br>
-   <b>A Windows 10 like calculator written in Visual Basic (VB).</b>
+  <img src="https://j.gifs.com/OyRZWL.gif"><br><br>
+  <b>A Windows 10 like calculator written in Visual Basic (VB).</b><br><br>
 </p>
 
 # Getting Started
 
-Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes. However, if you want to install the WowCalci application then download the setup file from [here](#versions).
+Follow the instructions below to get a copy of the project up and running on your local machine for development and testing purposes. <!--However, if you want to install the WowCalci application then download the setup file from [here](#versions).-->
 
 ## Prerequisites
 
@@ -27,8 +28,6 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     4. Open `WowCalci.sln` solution file inside `WowCalci` folder
     5. Done.
     
-## Demo
-
 ![WowCalci_Demo](https://j.gifs.com/OyRZWL.gif)
 
 <!--## Versions-->
