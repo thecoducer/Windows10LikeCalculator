@@ -29,12 +29,9 @@ You need to install [Git](https://git-scm.com/book/en/v2/Getting-Started-Install
     
 ## Demo
 
-<div style="position:relative;padding-bottom:56.265%;"><iframe src="//gifs.com/embed/wowcalci-windows-10-like-calculator-written-in-visual-basic-OyRZWL" frameborder="0" scrolling="no" width="830" height="467" style="backface-visibility: hidden; transform: scale(1); position: absolute; height: 100%; width: 100%;"></iframe></div>
+![WowCalci_Demo](https://j.gifs.com/OyRZWL.gif)
 
-## Versions
-
-- 
-
+<!--## Versions-->
 ## Built With
 
 * Visual Basic programming language
