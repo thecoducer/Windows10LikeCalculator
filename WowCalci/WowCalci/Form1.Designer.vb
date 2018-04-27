@@ -567,7 +567,7 @@ Partial Class Form1
         Me.x_squareroot.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.x_squareroot.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.x_squareroot.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.x_squareroot.Location = New System.Drawing.Point(87, 164)
+        Me.x_squareroot.Location = New System.Drawing.Point(87, 166)
         Me.x_squareroot.Name = "x_squareroot"
         Me.x_squareroot.Size = New System.Drawing.Size(77, 40)
         Me.x_squareroot.TabIndex = 44
@@ -709,7 +709,7 @@ Partial Class Form1
         Me.atan.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.atan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.atan.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.atan.Location = New System.Drawing.Point(336, 164)
+        Me.atan.Location = New System.Drawing.Point(336, 166)
         Me.atan.Name = "atan"
         Me.atan.Size = New System.Drawing.Size(77, 40)
         Me.atan.TabIndex = 56
@@ -726,7 +726,7 @@ Partial Class Form1
         Me.acos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.acos.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.acos.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.acos.Location = New System.Drawing.Point(253, 164)
+        Me.acos.Location = New System.Drawing.Point(253, 166)
         Me.acos.Name = "acos"
         Me.acos.Size = New System.Drawing.Size(77, 40)
         Me.acos.TabIndex = 57
@@ -743,7 +743,7 @@ Partial Class Form1
         Me.asin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
         Me.asin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.asin.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.asin.Location = New System.Drawing.Point(170, 164)
+        Me.asin.Location = New System.Drawing.Point(170, 166)
         Me.asin.Name = "asin"
         Me.asin.Size = New System.Drawing.Size(77, 40)
         Me.asin.TabIndex = 58
@@ -841,7 +841,7 @@ Partial Class Form1
         Me.cube.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver
         Me.cube.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.cube.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cube.Location = New System.Drawing.Point(4, 164)
+        Me.cube.Location = New System.Drawing.Point(4, 166)
         Me.cube.Name = "cube"
         Me.cube.Size = New System.Drawing.Size(77, 40)
         Me.cube.TabIndex = 64

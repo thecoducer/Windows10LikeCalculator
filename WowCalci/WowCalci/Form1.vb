@@ -34,6 +34,9 @@
     Private Sub clear_all_Click(sender As Object, e As EventArgs) Handles clear_all.Click
         display.Text = "0"
         equation.Text = ""
+        q = ""
+        firstnum = 0.0
+        secondnum = 0.0
     End Sub
 
     'For decimal point input button
@@ -162,7 +165,9 @@
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles asin.Click
         Dim s As Double = Double.Parse(display.Text)
         equation.Text = "sin⁻¹(" & s & ")"
-        s = Math.Asin((Math.PI * s / 180)) 'convert degrees into radians and then find the sin inverse
+        s = s * (Math.PI / 180) 'convert degrees into radians
+        s = Math.Asin(s)
+        s = s * (180 / Math.PI) 'convert radians into degrees
         display.Text = System.Convert.ToString(s)
     End Sub
 
@@ -263,7 +268,7 @@
         Next
         display.Text = System.Convert.ToString(s)
         equation.Text = "Fact(" & a & ")"
-        history_view.AppendText("Fact(" & a & ") =" & vbNewLine & s & vbNewLine)
+        history_view.AppendText("Fact(" & a & ") =" & vbNewLine & s & vbNewLine & vbNewLine)
 
     End Sub
 

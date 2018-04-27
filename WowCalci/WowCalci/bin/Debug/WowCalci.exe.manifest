@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WowCalci.exe" size="368056">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WowCalci.exe" size="368568">
       <assemblyIdentity name="WowCalci" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>mGBP2D3tQy3tL6y8NGyereCEWEXZgiWpuy5aig+BPvw=</dsig:DigestValue>
+        <dsig:DigestValue>6ylW6WHymQOPvI0JVPg8LRkqrw/casXHt9qZBz4KB8Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
